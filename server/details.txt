@@ -1,2 +1,18 @@
+1. Setup Express, MongoDB [mongoose], dotenv, nodemon, cors
+2. User Model - Creation
+3. Register Route
+4. Login Route
+5. Import Routes
+
+
+6. Create React App
+7. Signup Component
+8. Login or Signin Component
+9. Main Component
+10. Assign Routes
+
+
+
+
 npm install bcrypt
 
