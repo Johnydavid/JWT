@@ -23,7 +23,7 @@ const Signup = () => {
     console.log("handlesubmit !!!");
     e.preventDefault();
     try {
-      const url = "http://localhost:3001/api/users";
+      const url = "http://localhost:8080/api/users";
       const { input: res } = await axios.post(url, input);
       navigate("/login");
       console.log(res.message);
