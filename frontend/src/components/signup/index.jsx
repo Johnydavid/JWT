@@ -23,7 +23,7 @@ const Signup = () => {
     console.log("handlesubmit !!!");
     e.preventDefault();
     try {
-      const url = "http://localhost:3000/api/users";
+      const url = "http://localhost:3001/api/users";
       const { input: res } = await axios.post(url, input);
       navigate("/login");
       console.log(res.message);
@@ -80,6 +80,7 @@ const Signup = () => {
               type="password"
               placeholder="Password"
               name="password"
+              autoComplete="on"
               onChange={handleChange}
               value={input.password}
               required

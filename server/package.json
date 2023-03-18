@@ -117,7 +117,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "build" : "npm install",
+    "dev" : "nodemon server.js"
   },
   "keywords": [],
   "author": "",
